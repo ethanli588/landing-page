@@ -1,0 +1,88 @@
+/*Font and Colour */
+
+body{
+  background: #F0F3F5;
+  color: #19535F;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  color: #7B2D26;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #0B7A75;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+}
+a {
+  color: #D7C9AA;
+}
+a:hover {
+  text-decoration: none;
+  color: #7B2D26;
+}
+
+
+/*Custom Design */
+
+#banner{
+  text-align: center;
+  background-image: url("https://picsum.photos/id/1002/1000/500");
+  background-size: cover;
+  padding: 150px 0;
+  text-shadow: 1px 1px 5px black;
+  margin: 0;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+ /* opacity: 0.7; */
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#footer{
+  padding: 20px;
+  background: rgb(100, 100, 100);
+  color: lightgrey;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+
+#footer a:hover {
+  color: white;
+  font-size: 16px;
+}
+
+#footer p {
+  color: white;
+  font-size: 20px;
+
+}
+
+
+.card{
+  padding: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+
+.card p {
+  font-weight: lighter;
+  text-align: center;
+  font-size: 20px;
+}
